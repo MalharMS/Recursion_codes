@@ -1,5 +1,3 @@
-
-
 def rec_list_sum(datalist):
     total = 0
 
@@ -11,4 +9,4 @@ def rec_list_sum(datalist):
     return total 
 
 
-print(rec_list_sum([1,2,3,[4,5]]))
+print(rec_list_sum([1,2,3,[3,4,3,4,3],[4,5]]))
