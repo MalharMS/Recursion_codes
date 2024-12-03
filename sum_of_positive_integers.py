@@ -4,5 +4,5 @@ def sum(n):
     else:
         return n + sum(n-1)
 
-print(sum(3))
-print(sum(10))
+n = int(input("Enter a number: "))
+print(sum(n))
